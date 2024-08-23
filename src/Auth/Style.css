@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: -apple-system, 'Raleway' , sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.form-container {
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .form-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../assets/back.png') right top/auto 500px no-repeat, radial-gradient(58.43% 103.88% at 56.74% 50%, #0085FF 0%, #003465 100%);
+    z-index: -1; 
+    padding: 10px;
+  }
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 65px;
+    width: 153px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.form{
+    /* height: 60%; */
+    width: 40%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: rgba(88, 130, 193, 0.5);
+    border-radius: 40px;
+    border: 3px solid #5882C1; 
+}
+
+.form-content{
+    width: 85%;
+    height: 40%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF;
+
+}
+.form-content .text{
+    text-align: left;
+    font-size: 38px;
+    font-weight: 400;
+    
+}
+.form-fields{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputField{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #5882C1;
+    border-radius: 10px;
+}
+.inputField img{
+    margin: 0px 20px;
+}
+.inputField input{
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    align-self: center;
+    padding: 0px 10px;
+}
+.inputField label{
+    align-items: flex-start;
+}
+
+.forgotPassword{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.form-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-button button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #003465;
+    border: 1px solid #003465;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23.48px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.register-text{
+    font-size: 16px;
+    text-align: center;
+}

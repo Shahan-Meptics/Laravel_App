@@ -1,0 +1,60 @@
+.container.layout-section {
+    padding: 10px;
+
+}
+
+.top-left-image {
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 60px; /* Adjust size for responsiveness */
+    height: 110;
+    z-index: 10;
+}
+
+.hero-heading {
+    font-size: 3vw; /* Adjust for responsiveness */
+    margin-bottom: 20px;
+}
+
+.buy-ticket-btn {
+    border-radius: 9px;
+    background-color: #458FF6;
+    padding: 10px 20px;
+    width: auto;
+}
+
+.happy-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+    border-radius:0px;
+}
+
+@media (max-width: 768px) {
+    .hero-heading {
+        margin-top: 20px;
+        font-size: 7vw; /* Smaller font size on mobile */
+    }
+
+    .top-left-image {
+        position: absolute;
+        top: 100;
+        left: 0;
+        width: 20px; /* Adjust size for responsiveness */
+        height: 40;
+        z-index: 10;
+    }
+
+    .buy-ticket-btn {
+        width: 50%; /* Adjust button width on smaller screens */
+    }
+
+    .text-end {
+        text-align: center !important; /* Center the image on smaller screens */
+    }
+
+    .happy-image {
+        margin-top: 20px; /* Add spacing on smaller screens */
+    border-radius: 0px;
+    }
+}

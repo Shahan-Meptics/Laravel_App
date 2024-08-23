@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  
+}
+
+
+   
+ 
+
+.video-section {
+    margin-top: 100px;
+    background: 
+        linear-gradient(to right, transparent 40%, transparent 40%, #ffffff 20%),
+        url('../assets/leftv2.png'),
+        url('../assets/leftv3.png'); 
+    
+    background-size: 
+        contain,       
+        400px 700px,       
+        520px 750px;  
+        top: 30px;     
+    
+    background-position: 
+        left,          
+        left  top 100px,          
+        left -30px top -1px;
+         
+    background-repeat: no-repeat;
+}

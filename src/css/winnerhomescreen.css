@@ -1,0 +1,24 @@
+.image-slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .image-item {
+    flex: 0 0 auto;
+    width: calc(100% / 7); 
+    box-sizing: border-box;
+    padding: 0 5px; 
+  }
+  
+  img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+  }
+  

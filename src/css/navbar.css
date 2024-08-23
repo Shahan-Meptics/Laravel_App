@@ -1,0 +1,72 @@
+
+.nav-link.active {
+    color: #2E4E92; 
+    font-weight: bold; 
+border-bottom: #2E4E92 solid 2px; 
+}
+  
+@media screen and (max-width: 768px) {
+    .nav-link.active {
+        color: #2E4E92; 
+                font-weight: bold;
+    border-bottom:#2E4E92 solid 0px; 
+    }   
+    
+}
+
+
+
+.nav-link {
+    transition: color 0.1s ease, border-bottom 0.1s ease; 
+}
+
+.nav-link:hover {
+    color: #2E4E92; 
+    ;
+    transition-delay: 0.2s; 
+}
+
+
+
+.navbar {
+    background-color: transparent !important; 
+    box-shadow: none; 
+}
+.nav-link {
+color:  #8A8A8A;
+}
+
+.navbar-section-container {
+    background: linear-gradient(to right, #ffffff 60%, transparent 40%), url('../assets/backrgound_top.png'); /* Replace with your image path */
+    background-size: auto;
+    background-color: #ffffff;
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+
+}
+
+
+
+
+@media (max-width: 1300px) {
+    .navbar-section-container {
+        background: linear-gradient(to right, #ffffff 40%, transparent 60%), url('../assets/backrgound_top.png'); /* Replace with your image path */
+        background-size: auto;
+        background-color: #ffffff;
+        background-position: right center;
+        background-repeat: no-repeat;
+        margin-top: -15px;
+    
+    }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-section-container {
+        background: #ffffff; /* Solid white background */
+    }
+}
